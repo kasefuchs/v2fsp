@@ -4,11 +4,12 @@ import (
 	"bufio"
 	"bytes"
 	"encoding/base64"
+	"net/url"
+
 	"github.com/go-co-op/gocron/v2"
 	"github.com/kasefuchs/v2fsp/internal/pkg/repository"
 	"github.com/kasefuchs/v2fsp/internal/pkg/requester"
 	"github.com/kasefuchs/v2fsp/internal/pkg/uri"
-	"net/url"
 )
 
 type Updater struct {
